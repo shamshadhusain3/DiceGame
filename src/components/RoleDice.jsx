@@ -18,7 +18,7 @@ function RoleDice({ currentDice, setcurrentDice, roleDice }) {
                 onClick={handleRollDice}
                 className={isRolling ? 'rolling' : ''}
             >
-                <img src={`../../public/images/roleDice/dice_${currentDice}.png`} alt="Dice" />
+                <img src={`/images/roleDice/dice_${currentDice}.png`} alt="Dice" />
             </Dice>
             <p>Click on Dice to roll</p>
         </DiceContainer>

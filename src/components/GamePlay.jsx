@@ -90,7 +90,7 @@ max-width: 200px;
 export default GamePlay
 
 const MainContainer=styled.div`
-  
+
 padding-top: 70px;
 .top-section{
  justify-content: space-around;
